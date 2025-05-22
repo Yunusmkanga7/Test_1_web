@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="boot/boot/css/bootstrap.min.css">
+<style>
+    .top{
+        background-color: rgb(31, 29, 29);
+        gap: 30px;
+        display: flex;
+        padding: 20px;
+       
+    }
+    .top a{
+        color: silver;
+         text-decoration: none;
+
+    }
+    .top label{
+        color: silver;
+    }
+   form{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+   }
+   footer{
+     background-color: rgb(31, 29, 29);
+     padding: 20px;
+     padding-bottom: 30px;
+   }
+   .foot{
+    color: silver;
+    text-align: center;
+
+   }
+   table{
+    padding: 80px;
+    margin: auto;
+    width: 1200px;
+   }
+   thead{
+    background-color: rgb(34, 32, 32);
+    text-align: center;
+    color: white;
+    
+   }
+  .fm{
+    width: 800px;
+  }
+  .btns{
+    margin-right: auto;
+  }
+   .drop{
+    margin-left: auto;
+    color: black;
+   
+   }
+</style>
+<body>
+    <form>
+    <div class="top">
+        <label>Library System</label> 
+        <a href="manage-users.html">Manage User</a>
+        <a href="manage-books.html">Manage Books</a>
+        <a href="Manage-members.html">Manage Members</a>
+        <a href="#">Book Issuance</a>
+        <a href="Returned-books.html">Manage Returns</a>
+        <a href="#">Reports</a>
+        
+        <div class="drop">
+        <label style="color: white;"> Account</label>
+        <select>
+            <option selected></option>
+            <option>Change password</option>
+             <option>Change Profile</option>
+              <option>LogOut</option>
+        </select>
+    </div>
+</div>
+
+<div class="main-content">
+  <h2>Returns Books</h2>
+  <a href="#" class="btn btn-primary btns">Record Returns</a>
+<form class="fm">
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Book Title</th>
+        <th>Member Name</th>
+        <th>Issue Date</th>
+        <th>Return Date</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+
+     <tr>
+        <td>Design Patterns</td>
+        <td>Zahra Nassor</td>
+        <td>2025-05-03</td>
+        <td>2025-05-17</td>
+        <td>Returned</td>
+        
+    </tr>
+    
+     <tr>
+        <td>The Pragmatic Programmer</td>
+        <td>Ali aji</td>
+        <td>2025-05-01</td>
+        <td>2025-05-10</td>
+        <td>Returned</td>
+    </tr>
+  </table>
+  Showing 1 to 2 of 2 entry
+  </form>
+
+  <footer class="foot">
+        <label>@2025 Library Management System All rights reserved</label>
+    </footer>
+
+</div>
+
+
+
+    <script src="boot/boot/js/jquery-3.6.0.min.js"></script>
+</body>
+</html>
+</body>
+</html>

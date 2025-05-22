@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="boot/boot/css/bootstrap.min.css">
+<style>
+    .top{
+        background-color: rgb(31, 29, 29);
+        gap: 30px;
+        display: flex;
+        padding: 20px;
+       
+    }
+    .top a{
+        color: silver;
+         text-decoration: none;
+
+    }
+    .top label{
+        color: silver;
+    }
+    .card{
+        justify-content: center;
+        margin: auto;
+        padding: 20px;
+    }
+   form{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+   }
+   footer{
+     background-color: rgb(31, 29, 29);
+     padding: 20px;
+     padding-bottom: 30px;
+   }
+   .foot{
+    color: silver;
+    text-align: center;
+
+   }
+   .drop{
+    margin-left: auto;
+    color: black;
+   
+   }
+</style>
+<body>
+    <form>
+    <div class="top">
+        <label>Library System</label> 
+        <a href="manage-users.html">Manage User</a>
+        <a href="manage-books.html">Manage Books</a>
+        <a href="Manage-members.html">Manage Members</a>
+        <a href="#">Book Issuance</a>
+        <a href="Returned-books.html">Manage Returns</a>
+        <a href="#">Reports</a>
+        
+      
+        <div class="drop">
+        <label style="color: white;"> Account</label>
+        <a href="index.html">
+        <select>
+            <option selected></option>
+            <option>Change password</option>
+             <option>Change Profile</option> 
+              <option>LogOut</option>
+        </select>
+         </a>
+       
+
+    </div>
+</div>
+    <div class="main row">
+        <center><h2>Welcome to the Library Management Dashboard</h2></center><p>
+
+        <div class="card  col-md-3 ">
+            <div class="total">
+                <h2>Total Books</h2>
+                <h2>1,250</h2>
+            </div>
+        </div>
+
+        <div class="card col-md-3">
+            <div class="active">
+                <h2>Active Members</h2>
+                <h2>540</h2>
+
+            </div>
+
+        </div>
+
+            <div class="card col-md-3">
+            <div class="issue">
+                <h2>Book Issue</h2>
+                <h2>320</h2>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="foot">
+        <label>@2025 Library Management System All rights reserved</label>
+    </footer>
+    </form>
+</body>
+</html>
